@@ -1,12 +1,24 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 16px;
+    padding-bottom: 0px;
+    
+}
+
+.beachy{
+    background-color:aquamarine;
+    border:0px;
+    padding:0,0,0,0;
+}
+.caption{
+    padding:0,0,0,0;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    background-image: url('../images/palm with beach view.jpg');
+    background-size:cover;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
