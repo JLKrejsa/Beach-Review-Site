@@ -1,7 +1,46 @@
 ﻿body {
     padding-top: 16px;
     padding-bottom: 0px;
-    
+    background-color:aquamarine;
+    background-image: url('../images/palm with beach view.jpg');
+    background-size:cover;
+    font-size:16px;
+    color:white;
+}
+
+h4, h2{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+}
+
+.pickone{
+    text-align:center;
+}
+
+.navvy{
+    background-color:aquamarine;
+    font-variant-caps:all-small-caps;
+    font-size:18px;
+    color:#333;
+}
+
+.footer{
+    color: white;
+}
+
+.deets{
+    background-color:aquamarine;
+}
+
+.heady{
+    background-color:#FBFBF9;
+    text-align:center;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: seagreen;
 }
 
 .beachy{
@@ -13,11 +52,21 @@
     padding:0,0,0,0;
 }
 
+div.thumbnail{
+    padding: 0px;
+    border:none;
+    color:black;
+}
+
+.thumbnail{
+    padding: 0px;
+}
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-    background-image: url('../images/palm with beach view.jpg');
+    /*background-image: url('../images/palm with beach view.jpg');*/
     background-size:cover;
 }
 

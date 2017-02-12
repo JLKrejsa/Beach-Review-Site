@@ -8,10 +8,10 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="page-header">
-        <h2>Find your next beach vacation spot in the United States!</h2>
+    <div class="page-header heady">
+        <h1>Find your next beach vacation in the United States!</h1>
     </div>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top navvy">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -21,8 +21,8 @@
                 </button>
                 @Html.ActionLink("Beach Review Site", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+            <div class="navbar-collapse collapse snazzy">
+                <ul class="nav navbar-nav pickone">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("Reviews", "Index", "Reviews")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
