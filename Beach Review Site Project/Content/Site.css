@@ -5,7 +5,7 @@
     background-image: url('../images/palm with beach view.jpg');
     background-size:cover;
     font-size:16px;
-    color:white;
+    color:black;
 }
 
 h4, h2{
@@ -22,8 +22,9 @@ h4, h2{
 .navvy{
     background-color:aquamarine;
     font-variant-caps:all-small-caps;
-    font-size:18px;
+    font-size:24px;
     color:#333;
+    text-decoration-color:seagreen;
 }
 
 .footer{
