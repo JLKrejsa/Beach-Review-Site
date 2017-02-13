@@ -1,65 +1,66 @@
 ﻿body {
     padding-top: 16px;
     padding-bottom: 0px;
-    background-color:aquamarine;
+    background-color: aquamarine;
     background-image: url('../images/palm with beach view.jpg');
-    background-size:cover;
-    font-size:16px;
-    color:black;
+    background-size: cover;
+    font-size: 16px;
+    color: black;
 }
 
-h4, h2{
+h4, h2 {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
     color: white;
 }
 
-.pickone{
-    text-align:center;
+.pickone {
+    text-align: center;
 }
 
-.navvy{
-    background-color:aquamarine;
-    font-variant-caps:all-small-caps;
-    font-size:24px;
-    color:#333;
-    text-decoration-color:seagreen;
+.navvy {
+    background-color: aquamarine;
+    font-variant-caps: all-small-caps;
+    font-size: 24px;
+    color: #333;
+    text-decoration-color: seagreen;
 }
 
-.footer{
+.footer {
     color: white;
 }
 
-.deets{
-    background-color:aquamarine;
+.deets {
+    background-color: aquamarine;
 }
 
-.heady{
-    background-color:#FBFBF9;
-    text-align:center;
+.heady {
+    background-color: #FBFBF9;
+    text-align: center;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
     color: seagreen;
 }
 
-.beachy{
-    background-color:aquamarine;
-    border:0px;
-    padding:0,0,0,0;
-}
-.caption{
-    padding:0,0,0,0;
+.beachy {
+    background-color: aquamarine;
+    border: 0px;
+    padding: 0,0,0,0;
 }
 
-div.thumbnail{
+.caption {
+    padding: 0,0,0,0;
+}
+
+div.thumbnail {
     padding: 0px;
-    border:none;
-    color:black;
+    border: none;
+    color: black;
 }
 
-.thumbnail{
+.thumbnail {
     padding: 0px;
 }
 
@@ -68,7 +69,7 @@ div.thumbnail{
     padding-left: 15px;
     padding-right: 15px;
     /*background-image: url('../images/palm with beach view.jpg');*/
-    background-size:cover;
+    background-size: cover;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
